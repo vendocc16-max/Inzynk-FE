@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Inzynk Way | Precision Orchestration</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#354958",
+              "primary": "#7b5800",
+              "surface": "#f6f9ff",
+              "surface-variant": "#dfe3e9",
+              "on-surface": "#171c21",
+              "secondary": "#4c6170",
+              "tertiary-fixed": "#dfe3e9",
+              "primary-fixed-dim": "#fcbc24",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed": "#071e2b",
+              "error": "#ba1a1a",
+              "on-tertiary": "#ffffff",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#dfe3e9",
+              "secondary-fixed": "#cfe5f8",
+              "outline": "#827561",
+              "secondary-fixed-dim": "#b3c9db",
+              "surface-bright": "#f6f9ff",
+              "tertiary": "#5a5f64",
+              "background": "#f6f9ff",
+              "on-tertiary-fixed": "#171c21",
+              "on-primary-fixed": "#261900",
+              "surface-dim": "#d6dae1",
+              "on-primary-container": "#664900",
+              "tertiary-fixed-dim": "#c2c7cd",
+              "surface-tint": "#7b5800",
+              "on-secondary": "#ffffff",
+              "on-error-container": "#93000a",
+              "on-error": "#ffffff",
+              "surface-container-high": "#e4e8ef",
+              "surface-container": "#eaeef5",
+              "primary-container": "#f5b51b",
+              "on-primary-fixed-variant": "#5d4200",
+              "inverse-on-surface": "#edf1f7",
+              "primary-fixed": "#ffdea5",
+              "on-background": "#171c21",
+              "on-tertiary-container": "#494e54",
+              "inverse-surface": "#2c3136",
+              "secondary-container": "#cfe5f8",
+              "outline-variant": "#d4c4ac",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f0f4fa",
+              "on-tertiary-fixed-variant": "#42474c",
+              "on-secondary-container": "#526777",
+              "inverse-primary": "#fcbc24",
+              "tertiary-container": "#bcc0c6",
+              "on-surface-variant": "#504533"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f6f9ff;
+        color: #171c21;
+      }
+      h1, h2, h3 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      .editorial-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 2rem;
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(23,28,33,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-[#171c21]">Inzynk</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-['Plus_Jakarta_Sans'] tracking-tight font-semibold text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Platform</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-tight font-semibold text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Solutions</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-tight font-semibold text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Resources</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-tight font-semibold text-[#7b5800] border-b-2 border-[#7b5800] pb-1" href="#">Company</a>
+</div>
+<div class="flex items-center space-x-6">
+<button class="font-['Plus_Jakarta_Sans'] font-semibold text-[#504533] hover:opacity-80 transition-all">Login</button>
+<button class="bg-gradient-to-br from-[#7b5800] to-[#f5b51b] text-white px-6 py-2.5 rounded-full font-semibold hover:opacity-90 transition-all shadow-lg shadow-primary/20">Book a Demo</button>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section: The Precision Curator -->
+<section class="max-w-screen-2xl mx-auto px-8 mb-32">
+<div class="editorial-grid">
+<div class="col-span-12 md:col-span-8">
+<span class="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">The Methodology</span>
+<h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter text-on-surface leading-[1.1] mb-8">
+                        Precision in <br/> Orchestration.
+                    </h1>
+</div>
+<div class="col-span-12 md:col-start-8 md:col-span-5 md:-mt-20">
+<p class="text-xl text-on-surface-variant leading-relaxed font-light italic border-l-4 border-primary-container pl-8 py-4">
+                        We don't believe in noise. We believe in the quiet authority of a perfectly timed interaction. Inzynk is the architect of high-intent B2B relationships.
+                    </p>
+</div>
+</div>
+</section>
+<!-- The 'Inzynk Way' Methodology: Layered Insights -->
+<section class="bg-surface-container-low py-32">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="mb-20">
+<h2 class="text-4xl font-bold tracking-tight text-primary mb-4">The Inzynk Way</h2>
+<p class="text-on-surface-variant max-w-2xl text-lg">Our four-pillar orchestration engine moves beyond generic account targeting into hyper-specific behavioral resonance.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-12 rounded-lg shadow-sm group hover:shadow-xl transition-shadow duration-500">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center mb-8 text-primary">
+<span class="material-symbols-outlined text-3xl">target</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Signal Synthesis</h3>
+<p class="text-on-surface-variant leading-relaxed">We aggregate fragmented intent data into a single, high-fidelity profile. Not just who they are, but exactly where they sit in the decision cycle.</p>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-primary font-semibold flex items-center gap-2">
+                            Explore Signal Tech <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-12 rounded-lg shadow-sm group hover:shadow-xl transition-shadow duration-500 md:mt-16">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center mb-8 text-primary">
+<span class="material-symbols-outlined">layers</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Layered Engagement</h3>
+<p class="text-on-surface-variant leading-relaxed">Advertising shouldn't be a monolith. Our platform serves content layers that evolve as the account stakeholder engages, maintaining a narrative flow.</p>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-primary font-semibold flex items-center gap-2">
+                            The Narrative Engine <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-12 rounded-lg shadow-sm group hover:shadow-xl transition-shadow duration-500">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center mb-8 text-primary">
+<span class="material-symbols-outlined">hub</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Unified Reach</h3>
+<p class="text-on-surface-variant leading-relaxed">Precision across the open web. We bridge the gap between social intent and professional browsing through a curated inventory of premium enterprise publishers.</p>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-primary font-semibold flex items-center gap-2">
+                            Inventory Network <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-12 rounded-lg shadow-sm group hover:shadow-xl transition-shadow duration-500 md:mt-16">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center mb-8 text-primary">
+<span class="material-symbols-outlined">query_stats</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Attribution Clarity</h3>
+<p class="text-on-surface-variant leading-relaxed">No vanity metrics. We measure pipeline velocity and account lift, providing C-suite ready reports that prove the value of every dollar spent.</p>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-primary font-semibold flex items-center gap-2">
+                            Metric Systems <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Game Changer Section: The Asymmetric Editorial Layout -->
+<section class="py-32 overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-64 h-64 bg-primary-container/20 rounded-full blur-3xl"></div>
+<div class="relative bg-surface-container-highest aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover grayscale contrast-125" data-alt="Sophisticated professional team collaborating on high-end technology" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1x-LpYntiJTiu4XcmdWc-Z2EiSVj4tnTauixFbPAQQZ52n1ApCWd-awvi3fgsIfCMAOjbwsvuIKhG6MVHYnrb41iO5PX208Zz7woUIp9MYglCdoj7fl4ffIqaDUship7QF6OC8tBmB23YR930til8oWmemlj3fcG8QuWU4VZnKFDZI7kuT_J9_gwY_KqPD69Y4snqJsPSwrmUpzc7271xtxbLbRXu-lucMs6L-4I32JzvwekfHcENsCIMi7NMfhQz7WVLTuDCYw"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-on-surface/80 to-transparent">
+<p class="text-white font-headline text-2xl font-bold tracking-tight italic">"The technology is only as good as the focus it creates."</p>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<h2 class="text-5xl font-extrabold tracking-tighter mb-8 leading-tight">The Game Changer: <br/><span class="text-primary">Zero-Waste Reach.</span></h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<span class="text-4xl font-black text-primary/20 shrink-0">01</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Eliminating the 'Spray and Pray'</h4>
+<p class="text-on-surface-variant">Traditional ABM platforms still waste 40% of budget on irrelevant clicks. Our proprietary identity graph ensures 99.8% precision at the account level.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-4xl font-black text-primary/20 shrink-0">02</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Automated Orchestration</h4>
+<p class="text-on-surface-variant">Manual campaign management is the bottleneck. Inzynk automates the transition between awareness and consideration based on real-time engagement triggers.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-4xl font-black text-primary/20 shrink-0">03</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Enterprise-Grade Privacy</h4>
+<p class="text-on-surface-variant">Built for the cookieless future. Our methodology relies on first-party data signals and contextual intelligence, making it future-proof for global scale.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership: The Team -->
+<section class="bg-surface-dim py-32">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="text-center mb-24">
+<h2 class="text-5xl font-bold tracking-tighter text-on-surface mb-6">The Architects of Precision</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto text-lg">A collective of data scientists, enterprise marketers, and advertising veterans dedicated to redefining the B2B landscape.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Leader 1 -->
+<div class="group">
+<div class="aspect-square bg-surface-container-low mb-6 overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Portrait of a professional executive leader" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_56cVbSJJpcPXyx3JLw-buPpQ798oO9LGQGmXwxchwTwX0th3CxSNx9n75CwlV_2oxREhQmuqRRKSY4aTFlafERbbDsixVRG_pqEN_Oa-ZAQMZOYfYmCZqYm-xt8EPZQI_zfrL89-EtfNG_bsYF-NFznqbHMHgWHR1IBUgNehux8r_k1-zrw62QA3sOQgqENi7a_0-km3xPzexM2-xJ1MVDgl6B-FV3EVeSflirc0qXKH9XGkNTgoJT4ceBMuDx6l-6xw7LPuag"/>
+<div class="absolute inset-0 border-[1rem] border-transparent group-hover:border-primary/10 transition-all"></div>
+</div>
+<h4 class="text-2xl font-bold tracking-tight">Anders Svensson</h4>
+<p class="text-primary font-semibold mb-3">CEO &amp; Co-Founder</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Visionary leader with 20+ years in digital advertising transformation for the Nordic enterprise sector.</p>
+</div>
+<!-- Leader 2 -->
+<div class="group md:mt-12">
+<div class="aspect-square bg-surface-container-low mb-6 overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Portrait of a professional tech executive" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHl3QQBhglzg0O8vjUW_IrPMwZrmi8zUe_NCpAxfIvHV8l5DSru8PH2b25TnIdm7R-KxdG2ZNdDkTXO7HxcXvKW_0imSZp4cdae8Wu64S9bax-X0S21-XVykzx_msqrAkxQRREkPm31YqNAdeozs8QwxxIiLT_5HkH6G1xc2KqTKVP8lOcliAs9NoguMUPFUaDKb1wuU5SezjiuWX8QEsgm5BimAp2CtIvcvku1KUfaqDbRJS0kLD9mQgqpfE4wNe4iGeeC4Rfhw"/>
+<div class="absolute inset-0 border-[1rem] border-transparent group-hover:border-primary/10 transition-all"></div>
+</div>
+<h4 class="text-2xl font-bold tracking-tight">Elena Moretti</h4>
+<p class="text-primary font-semibold mb-3">Chief Technology Officer</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Architect of the Inzynk identity graph. Former lead of data engineering at global SaaS titans.</p>
+</div>
+<!-- Leader 3 -->
+<div class="group">
+<div class="aspect-square bg-surface-container-low mb-6 overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Portrait of an innovation leader" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnns4Rqx2cdcCnBhbP0KxbwXRlREAVt_M_IGEi4ajGLv_75ZMx6oMxJgXKDwHQhiEN8fntP_AjavtVhhc4-3BxnOd3cJOGifmaiXwU6QGYPDJLBA1Mbrt-jWXPhu-Ry_PgsQ_l41aBPYOB3jOJ4HI9diuBvqEP-stgeEXHQbE3vkUFnQLmlbeKjWKU4A5yRRZMUVtoTJr0kzhxeEBgXl4NWiztVVTI6LLq5x-W9kifZsVbAI-w_AQ-khyT0_paGCRVOZpO9HmE0Q"/>
+<div class="absolute inset-0 border-[1rem] border-transparent group-hover:border-primary/10 transition-all"></div>
+</div>
+<h4 class="text-2xl font-bold tracking-tight">Marcus Thorne</h4>
+<p class="text-primary font-semibold mb-3">Head of Innovation</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Focusing on the intersection of AI and behavioral psychology to drive meaningful brand engagement.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA: The Minimalist Signature -->
+<section class="py-32 bg-on-surface text-white">
+<div class="max-w-screen-2xl mx-auto px-8 flex flex-col items-center text-center">
+<h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-10 leading-[1.1]">Ready to move <br/>beyond the noise?</h2>
+<div class="flex gap-4">
+<button class="bg-primary-container text-on-primary-container px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 transition-all">Book Your Precision Audit</button>
+<button class="border border-white/30 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all">Read Whitepaper</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-20 pb-10 bg-[#f0f4fa]">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-12 px-8 max-w-screen-2xl mx-auto">
+<div class="col-span-2">
+<div class="text-xl font-black text-[#171c21] mb-4">Inzynk</div>
+<p class="font-['Inter'] text-sm leading-relaxed text-[#504533] max-w-xs mb-8">
+                    Precision in ABM. Empowering enterprise teams to build relationships through hyper-focused advertising orchestration.
+                </p>
+<p class="font-['Inter'] text-sm leading-relaxed text-[#504533]">© 2024 Inzynk. Precision in ABM.</p>
+</div>
+<div>
+<h5 class="font-bold mb-6 text-on-surface">Platform</h5>
+<ul class="space-y-4 font-['Inter'] text-sm leading-relaxed text-[#504533]">
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Targeting</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Analytics</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">API Docs</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-6 text-on-surface">Company</h5>
+<ul class="space-y-4 font-['Inter'] text-sm leading-relaxed text-[#504533]">
+<li><a class="text-[#7b5800] font-bold" href="#">About Us</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-6 text-on-surface">Legal</h5>
+<ul class="space-y-4 font-['Inter'] text-sm leading-relaxed text-[#504533]">
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-[#f5b51b] transition-colors" href="#">Security</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>

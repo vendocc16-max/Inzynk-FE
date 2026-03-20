@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inzynk | Precision ABM Platform</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#354958",
+              "primary": "#7b5800",
+              "surface": "#f6f9ff",
+              "surface-variant": "#dfe3e9",
+              "on-surface": "#171c21",
+              "secondary": "#4c6170",
+              "tertiary-fixed": "#dfe3e9",
+              "primary-fixed-dim": "#fcbc24",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed": "#071e2b",
+              "error": "#ba1a1a",
+              "on-tertiary": "#ffffff",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#dfe3e9",
+              "secondary-fixed": "#cfe5f8",
+              "outline": "#827561",
+              "secondary-fixed-dim": "#b3c9db",
+              "surface-bright": "#f6f9ff",
+              "tertiary": "#5a5f64",
+              "background": "#f6f9ff",
+              "on-tertiary-fixed": "#171c21",
+              "on-primary-fixed": "#261900",
+              "surface-dim": "#d6dae1",
+              "on-primary-container": "#664900",
+              "tertiary-fixed-dim": "#c2c7cd",
+              "surface-tint": "#7b5800",
+              "on-secondary": "#ffffff",
+              "on-error-container": "#93000a",
+              "on-error": "#ffffff",
+              "surface-container-high": "#e4e8ef",
+              "surface-container": "#eaeef5",
+              "primary-container": "#f5b51b",
+              "on-primary-fixed-variant": "#5d4200",
+              "inverse-on-surface": "#edf1f7",
+              "primary-fixed": "#ffdea5",
+              "on-background": "#171c21",
+              "on-tertiary-container": "#494e54",
+              "inverse-surface": "#2c3136",
+              "secondary-container": "#cfe5f8",
+              "outline-variant": "#d4c4ac",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f0f4fa",
+              "on-tertiary-fixed-variant": "#42474c",
+              "on-secondary-container": "#526777",
+              "inverse-primary": "#fcbc24",
+              "tertiary-container": "#bcc0c6",
+              "on-surface-variant": "#504533"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        vertical-align: middle;
+      }
+      .editorial-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 2rem;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(24px);
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0_20px_40px_rgba(23,28,33,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-[#171c21] dark:text-white font-headline">
+                Inzynk
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-headline tracking-tight font-semibold">
+<a class="text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Platform</a>
+<a class="text-[#7b5800] border-b-2 border-[#7b5800] pb-1" href="#">Solutions</a>
+<a class="text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Resources</a>
+<a class="text-[#504533] hover:text-[#7b5800] transition-all duration-300" href="#">Company</a>
+</div>
+<div class="flex items-center space-x-6">
+<button class="text-[#504533] font-headline font-semibold hover:opacity-80 transition-all">Login</button>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-6 py-2.5 rounded-full font-headline font-semibold hover:opacity-90 transition-all scale-100 active:scale-95 duration-200">
+                    Book a Demo
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-8 mb-32">
+<div class="editorial-grid">
+<div class="col-span-12 md:col-span-7">
+<span class="text-primary font-headline font-bold tracking-widest uppercase text-xs mb-4 block">The Platform</span>
+<h1 class="text-6xl md:text-8xl font-headline font-extrabold tracking-tighter text-on-surface leading-[0.9] mb-8">
+                        Precision <br/> Orchestration.
+                    </h1>
+</div>
+<div class="col-span-12 md:col-span-4 md:col-start-9 mt-auto">
+<p class="text-xl text-on-surface-variant leading-relaxed">
+                        Move beyond broad-spectrum marketing. Inzynk provides the scalpel for enterprise ABM, turning account intelligence into surgical advertising execution.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Feature 1: Target Account Orchestration -->
+<section class="bg-surface-container-low py-32 mb-32">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="editorial-grid items-center">
+<div class="col-span-12 md:col-span-5 mb-12 md:mb-0">
+<h2 class="text-4xl font-headline font-bold text-primary mb-6">Target Account Orchestration</h2>
+<p class="text-lg text-on-surface-variant mb-8 leading-relaxed">
+                            Define your high-value universe. Our orchestration engine syncs directly with your CRM and intent providers to build dynamic account lists that evolve in real-time.
+                        </p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span class="font-medium">Bi-directional CRM Syncing</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span class="font-medium">Intent-based Dynamic Refresh</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span class="font-medium">Account Scoring Tiering</span>
+</li>
+</ul>
+</div>
+<!-- UI Representation Card -->
+<div class="col-span-12 md:col-span-7">
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0_20px_40px_rgba(23,28,33,0.06)] relative overflow-hidden">
+<div class="flex items-center justify-between mb-8">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-lg bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="hub">hub</span>
+</div>
+<div>
+<div class="text-sm font-bold">Account Intelligence</div>
+<div class="text-xs text-on-surface-variant">Active Sync: Salesforce &amp; 6sense</div>
+</div>
+</div>
+<div class="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded-full">LIVE DATA</div>
+</div>
+<!-- Mock List -->
+<div class="space-y-3">
+<div class="flex items-center justify-between p-4 bg-surface rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-8 h-8 rounded bg-surface-dim" data-alt="Company Logo Placeholder"></div>
+<span class="font-bold">Global Enterprises Inc.</span>
+</div>
+<div class="flex gap-4">
+<div class="text-right">
+<div class="text-xs text-on-surface-variant">Score</div>
+<div class="text-sm font-bold">98</div>
+</div>
+<div class="text-right">
+<div class="text-xs text-on-surface-variant">Status</div>
+<div class="text-sm font-bold text-primary">Priority 1</div>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between p-4 bg-surface/50 rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-8 h-8 rounded bg-surface-dim" data-alt="Company Logo Placeholder"></div>
+<span class="font-bold">Stellar Cloud Systems</span>
+</div>
+<div class="flex gap-4">
+<div class="text-right">
+<div class="text-xs text-on-surface-variant">Score</div>
+<div class="text-sm font-bold">84</div>
+</div>
+<div class="text-right">
+<div class="text-xs text-on-surface-variant">Status</div>
+<div class="text-sm font-bold text-on-surface-variant">Nurturing</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Overlay Gradient -->
+<div class="absolute inset-0 pointer-events-none border-[1px] border-outline-variant/15 rounded-xl"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature 2: Ad Channel Integration -->
+<section class="max-w-screen-2xl mx-auto px-8 mb-32">
+<div class="editorial-grid items-center">
+<div class="col-span-12 md:col-span-6 md:order-2">
+<h2 class="text-4xl font-headline font-bold text-primary mb-6">Ad Channel Integration</h2>
+<p class="text-lg text-on-surface-variant mb-8 leading-relaxed">
+                        One command center, infinite reach. Deploy personalized creative across LinkedIn, Google Display, and Premium Programmatic channels with zero friction.
+                    </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="ads_click">ads_click</span>
+<div class="font-bold mb-1">Unified Creative</div>
+<div class="text-sm text-on-surface-variant">Auto-adapt assets across all platforms.</div>
+</div>
+<div class="p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="precision_manufacturing">precision_manufacturing</span>
+<div class="font-bold mb-1">Precision Bidding</div>
+<div class="text-sm text-on-surface-variant">AI-optimized budget allocation per account.</div>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-6 md:order-1">
+<div class="relative p-8">
+<!-- Abstract Integration Diagram -->
+<div class="aspect-square bg-gradient-to-br from-surface-container-highest to-surface-dim rounded-full flex items-center justify-center relative">
+<div class="absolute w-[80%] h-[80%] border-2 border-dashed border-outline-variant/30 rounded-full"></div>
+<div class="w-32 h-32 bg-white rounded-2xl shadow-xl flex items-center justify-center z-10">
+<div class="text-3xl font-black text-primary">INZYNK</div>
+</div>
+<!-- Floating Channel Icons -->
+<div class="absolute top-10 left-1/2 -translate-x-1/2 bg-white p-4 rounded-xl shadow-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-600" data-icon="groups">groups</span>
+<span class="font-bold text-xs uppercase">LinkedIn</span>
+</div>
+<div class="absolute bottom-10 left-1/4 bg-white p-4 rounded-xl shadow-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-red-500" data-icon="ads_click">ads_click</span>
+<span class="font-bold text-xs uppercase">Google</span>
+</div>
+<div class="absolute top-1/2 right-0 bg-white p-4 rounded-xl shadow-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="language">language</span>
+<span class="font-bold text-xs uppercase">Programmatic</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature 3: Performance Analytics (Bento Grid) -->
+<section class="bg-surface-container py-32">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="mb-16 max-w-2xl">
+<h2 class="text-4xl font-headline font-bold text-primary mb-6">Performance Analytics</h2>
+<p class="text-lg text-on-surface-variant">
+                        Our analytics go beyond impressions. We measure true account lift, buying committee engagement, and direct revenue attribution.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-auto md:h-[600px]">
+<!-- Metric Card 1 -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-lowest p-10 rounded-xl shadow-sm flex flex-col justify-between border-[1px] border-outline-variant/10">
+<div>
+<div class="flex justify-between items-start mb-12">
+<div class="text-sm font-bold uppercase tracking-widest text-on-surface-variant">Account Reach Lift</div>
+<span class="material-symbols-outlined text-primary" data-icon="trending_up">trending_up</span>
+</div>
+<div class="text-7xl font-headline font-extrabold text-on-surface mb-4">+312%</div>
+<div class="text-on-surface-variant">Average increase in target account engagement within the first 60 days of deployment.</div>
+</div>
+<div class="mt-8 pt-8 border-t border-surface-variant">
+<div class="flex gap-2">
+<div class="h-12 w-full bg-primary/10 rounded-sm"></div>
+<div class="h-12 w-full bg-primary/20 rounded-sm"></div>
+<div class="h-12 w-full bg-primary/40 rounded-sm"></div>
+<div class="h-12 w-full bg-primary/60 rounded-sm"></div>
+<div class="h-12 w-full bg-primary rounded-sm"></div>
+</div>
+</div>
+</div>
+<!-- Metric Card 2 -->
+<div class="md:col-span-2 bg-secondary-container p-8 rounded-xl flex flex-col justify-center">
+<div class="flex items-center gap-6">
+<div class="text-4xl font-headline font-bold text-on-secondary-container">84%</div>
+<div class="text-lg font-medium text-on-secondary-container/80 leading-tight">
+                                Decrease in cost per meaningful engagement compared to broad display.
+                            </div>
+</div>
+</div>
+<!-- Metric Card 3 -->
+<div class="bg-surface-container-highest p-8 rounded-xl flex flex-col justify-center">
+<div class="text-sm font-bold mb-4">Pipeline Value</div>
+<div class="text-2xl font-bold">$4.2M</div>
+<div class="w-full bg-white/30 h-1.5 mt-4 rounded-full overflow-hidden">
+<div class="w-2/3 h-full bg-primary"></div>
+</div>
+</div>
+<!-- Metric Card 4 -->
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center">
+<div class="text-sm font-bold mb-4">Active Committees</div>
+<div class="text-2xl font-bold">128</div>
+<div class="text-xs text-on-surface-variant mt-2">+12 this week</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Section -->
+<section class="py-32 max-w-screen-2xl mx-auto px-8 text-center">
+<h2 class="text-5xl md:text-6xl font-headline font-extrabold tracking-tighter mb-8 max-w-3xl mx-auto">
+                Ready to engineer your growth?
+            </h2>
+<p class="text-xl text-on-surface-variant mb-12 max-w-xl mx-auto">
+                Join the precision revolution in B2B enterprise marketing.
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-10 py-4 rounded-full font-headline font-bold text-lg hover:opacity-90 transition-all">
+                    Start Precision Campaign
+                </button>
+<button class="bg-transparent border border-outline-variant/30 text-on-surface px-10 py-4 rounded-full font-headline font-bold text-lg hover:bg-surface-container transition-all">
+                    Request Platform Tour
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-20 pb-10 bg-[#f0f4fa] dark:bg-[#12161b]">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-12 px-8 max-w-screen-2xl mx-auto">
+<div class="col-span-2">
+<div class="text-xl font-black text-[#171c21] dark:text-white mb-4">Inzynk</div>
+<p class="text-sm leading-relaxed text-[#504533] dark:text-gray-400 max-w-xs">
+                    Precision in ABM. The definitive operating system for account-based advertising.
+                </p>
+</div>
+<div>
+<h4 class="font-bold text-[#7b5800] mb-6 text-sm uppercase tracking-widest">Resources</h4>
+<div class="flex flex-col space-y-4 text-sm text-[#504533] dark:text-gray-400 font-body">
+<a class="hover:text-[#f5b51b] transition-colors" href="#">API Docs</a>
+<a class="hover:text-[#f5b51b] transition-colors" href="#">Security</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-[#7b5800] mb-6 text-sm uppercase tracking-widest">Legal</h4>
+<div class="flex flex-col space-y-4 text-sm text-[#504533] dark:text-gray-400 font-body">
+<a class="hover:text-[#f5b51b] transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-[#f5b51b] transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-[#f5b51b] transition-colors" href="#">Cookie Settings</a>
+</div>
+</div>
+<div class="col-span-2 md:col-span-5 pt-10 mt-10 border-t border-outline-variant/10 text-center md:text-left">
+<p class="text-sm font-body text-[#504533] dark:text-gray-400">
+                    © 2024 Inzynk. Precision in ABM.
+                </p>
+</div>
+</div>
+</footer>
+</body></html>
